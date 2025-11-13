@@ -22,5 +22,6 @@ Begin by complying with the naming standards published [here](https://docs.godot
 - On ready, the Game script will call a method in the SceneHandler to load the openning scene
 - Generic helper functions and global variables are kept in an AutoLoad script named Global
 - Purpose-specific configuration files are used, when appropriate, to keep game configuration abstracted away from scene code
+- When using inheritance, always leverage class_names rather than ```extends "res://"``` formats
 
 # 
