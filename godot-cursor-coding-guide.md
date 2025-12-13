@@ -25,5 +25,6 @@ Begin by complying with the naming standards published [here](https://docs.godot
 - When using inheritance, always leverage class_names rather than ```extends "res://"``` formats
 - Decorate all classes, scripts, and methods with plain language comments explaining the purpose behind each component
 - When marking spawn locations or important locations, prefer to use Marker2D and Marker3D node types
+- Use AnimationPlayers for animations rather than code-based frame cycling.
 
 # 
