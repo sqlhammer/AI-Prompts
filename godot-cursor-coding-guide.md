@@ -5,6 +5,7 @@ This markdown document contains coding standards for Godot projects that you mus
 - Optimize for readability and ease of troubleshooting
 - Break out node trees into independently runnable and testable scenes
 - Minimize coupling and direct dependencies between scenes and export configuration variables where it makes editor usability and testing easier
+- Write debug print statements for any useful events or actions. There will be a method in an autoload script that takes a message input and only prints it if OS.is_debug_build().
 
 # Naming standards
 Begin by complying with the naming standards published [here](https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript/gdscript_styleguide.html).Then, treat the below requirements as superceding mandates.
