@@ -14,6 +14,7 @@ Begin by complying with the naming standards published [here](https://docs.godot
 - Abbreviations are avoided in favor of using fully qualified words/names.
 - Variables are strongly typed for any method signatures
 - Void functions are explicitly labeled as void
+- Method/function parameters that involved concatonation or math with more than two components will be first resolved in a local variable and then the local variable will be passed into the method/function.
 
 # Project Structure
 
@@ -28,4 +29,6 @@ Begin by complying with the naming standards published [here](https://docs.godot
 - When marking spawn locations or important locations, prefer to use Marker2D and Marker3D node types
 - Use AnimationPlayers for animations rather than code-based frame cycling.
 
-# 
+# Prompting
+
+- Always ask clarifying and follow up questions to refine any prompt, especially when in Plan mode.
